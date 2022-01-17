@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+.main{
+    width: ;
+}
+.desktop{}
+.desktop img{
+    width: 100%;
+    padding: 0;
+}
+.mobile{
+    display: none;
+}
+.mobile img{}
+
+@media only screen and (max-width: 475px){
+    .desktop img{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+    .mobile img{
+        width: 100%;
+    }
+}
